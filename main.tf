@@ -20,7 +20,7 @@ module "website-s3-bucket" {
     index_suffix   = "index.html"
     error_key      = "error.html"
     bucket_tags = {
-      Owner = "production team"
+      Owner = "recette team"
     }
   }
 }
